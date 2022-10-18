@@ -1,0 +1,53 @@
+:root {
+  --ifm-color-primary: #14279B;
+  --ifm-color-primary-dark: #14279B;
+  --ifm-color-primary-darker: #14279B;
+  --ifm-color-primary-darkest: #14279B;
+  --ifm-color-primary-light: #14279B;
+  --ifm-color-primary-lighter: #14279B;
+  --ifm-color-primary-lightest: #14279B;
+  --ifm-code-font-size: 95%;
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #5C7AEA;
+  --ifm-color-primary-dark: #5C7AEA;
+  --ifm-color-primary-darker: #5C7AEA;
+  --ifm-color-primary-darkest: #5C7AEA;
+  --ifm-color-primary-light: #5C7AEA;
+  --ifm-color-primary-lighter: #5C7AEA;
+  --ifm-color-primary-lightest: #5C7AEA;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  box-shadow: none;
+  background-color: #111827;
+}
+
+.menu {
+  background-color: #111827;
+  border-right: .5px solid #f9fafb;
+}
+
+/* main {
+  background-color: #111827;
+} */
+
+.main-wrapper {
+  background-color: #111827;
+}
+
+.footer {
+  background-color: #111827;
+}
